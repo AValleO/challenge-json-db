@@ -3,8 +3,8 @@
         {
             "id": 1,
             "gender": "female",
+            "role": "analyst",
             "name": {
-                "title": "Ms",
                 "first": "Eva",
                 "last": "Ortega"
             },
@@ -20,15 +20,14 @@
             "phone": "925-786-538",
             "cell": "670-157-832",
             "picture": {
-                "large": "https://randomuser.me/api/portraits/women/79.jpg",
-                "medium": "https://randomuser.me/api/portraits/med/women/79.jpg"
+                "large": "https://randomuser.me/api/portraits/women/79.jpg"
             }
         },
         {
             "id": 2,
             "gender": "female",
+            "role": "manager",
             "name": {
-                "title": "Miss",
                 "first": "Luz",
                 "last": "Peña"
             },
@@ -44,15 +43,14 @@
             "phone": "994-505-879",
             "cell": "631-740-621",
             "picture": {
-                "large": "https://randomuser.me/api/portraits/women/23.jpg",
-                "medium": "https://randomuser.me/api/portraits/med/women/23.jpg"
+                "large": "https://randomuser.me/api/portraits/women/23.jpg"
             }
         },
         {
             "id": 3,
             "gender": "male",
+            "role": "analyst",
             "name": {
-                "title": "Mr",
                 "first": "Diego",
                 "last": "Alonso"
             },
@@ -68,15 +66,14 @@
             "phone": "904-166-205",
             "cell": "698-599-230",
             "picture": {
-                "large": "https://randomuser.me/api/portraits/men/70.jpg",
-                "medium": "https://randomuser.me/api/portraits/med/men/70.jpg"
+                "large": "https://randomuser.me/api/portraits/men/70.jpg"
             }
         },
         {
             "id": 4,
             "gender": "male",
+            "role": "manager",
             "name": {
-                "title": "Mr",
                 "first": "Christian",
                 "last": "Vega"
             },
@@ -92,15 +89,14 @@
             "phone": "901-934-630",
             "cell": "600-310-347",
             "picture": {
-                "large": "https://randomuser.me/api/portraits/men/44.jpg",
-                "medium": "https://randomuser.me/api/portraits/med/men/44.jpg"
+                "large": "https://randomuser.me/api/portraits/men/44.jpg"
             }
         },
         {
             "id": 5,
             "gender": "female",
+            "role": "accounting",
             "name": {
-                "title": "Ms",
                 "first": "Margarita",
                 "last": "Carrasco"
             },
@@ -116,8 +112,7 @@
             "phone": "974-894-092",
             "cell": "656-508-323",
             "picture": {
-                "large": "https://randomuser.me/api/portraits/women/58.jpg",
-                "medium": "https://randomuser.me/api/portraits/med/women/58.jpg"
+                "large": "https://randomuser.me/api/portraits/women/58.jpg"
             }
         }
     ]
