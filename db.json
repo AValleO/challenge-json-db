@@ -1,14 +1,540 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "users": [
+        {
+            "id": 1,
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Eva",
+                "last": "Ortega"
+            },
+            "location": {
+                "street": {
+                    "number": 2308,
+                    "name": "Calle Nebrija"
+                },
+                "city": "Pontevedra",
+                "state": "Comunidad de Madrid",
+                "country": "Spain",
+                "postcode": 35228,
+                "coordinates": {
+                    "latitude": "-44.0945",
+                    "longitude": "40.4541"
+                },
+                "timezone": {
+                    "offset": "-9:00",
+                    "description": "Alaska"
+                }
+            },
+            "email": "eva.ortega@example.com",
+            "login": {
+                "uuid": "5ad13eb7-463a-4267-b0db-2822d38cda94",
+                "username": "sadcat596",
+                "password": "snowboard",
+                "salt": "AnOlAB7d",
+                "md5": "876c7ff992c2a8c986c703df9ed03dbd",
+                "sha1": "66ce88a38379ad662c9f971b3b4bb357436552df",
+                "sha256": "df2df02e85b9b0407087883c54bf49eb40657a6196dc3df819de8de4962937f3"
+            },
+            "dob": {
+                "date": "1955-01-10T17:09:15.719Z",
+                "age": 70
+            },
+            "registered": {
+                "date": "2005-02-19T05:57:49.509Z",
+                "age": 20
+            },
+            "phone": "925-786-538",
+            "cell": "670-157-832",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/79.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/79.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/79.jpg"
+            },
+            "nat": "ES"
+        },
+        {
+            "id": 2,
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Luz",
+                "last": "Peña"
+            },
+            "location": {
+                "street": {
+                    "number": 3857,
+                    "name": "Calle del Prado"
+                },
+                "city": "Vigo",
+                "state": "Castilla la Mancha",
+                "country": "Spain",
+                "postcode": 83740,
+                "coordinates": {
+                    "latitude": "54.5331",
+                    "longitude": "102.5601"
+                },
+                "timezone": {
+                    "offset": "-12:00",
+                    "description": "Eniwetok, Kwajalein"
+                }
+            },
+            "email": "luz.pena@example.com",
+            "login": {
+                "uuid": "018bd648-27fa-4941-aae9-b306df4d75db",
+                "username": "sadbird972",
+                "password": "qwer",
+                "salt": "Cu3RS7fU",
+                "md5": "431861d810fd5418b23ead7be9c1e6c3",
+                "sha1": "49edb35c0f647efed6d2d2bec831c113278705f0",
+                "sha256": "95c9ecb1dd9fef32abde7f180da6a795d26268251964765f87a72abd967328a0"
+            },
+            "dob": {
+                "date": "1997-11-25T09:53:06.010Z",
+                "age": 27
+            },
+            "registered": {
+                "date": "2004-06-04T15:25:37.502Z",
+                "age": 20
+            },
+            "phone": "994-505-879",
+            "cell": "631-740-621",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/23.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/23.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/23.jpg"
+            },
+            "nat": "ES"
+        },
+        {
+            "id": 3,
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Diego",
+                "last": "Alonso"
+            },
+            "location": {
+                "street": {
+                    "number": 3881,
+                    "name": "Calle de Arganzuela"
+                },
+                "city": "Cartagena",
+                "state": "País Vasco",
+                "country": "Spain",
+                "postcode": 20593,
+                "coordinates": {
+                    "latitude": "39.2015",
+                    "longitude": "162.2241"
+                },
+                "timezone": {
+                    "offset": "+6:00",
+                    "description": "Almaty, Dhaka, Colombo"
+                }
+            },
+            "email": "diego.alonso@example.com",
+            "login": {
+                "uuid": "1bbb1ff1-3f68-408c-bf41-c71a4195695f",
+                "username": "orangezebra289",
+                "password": "fred",
+                "salt": "OUBWaq08",
+                "md5": "8438587ff3491c1d9d43252b34fceed6",
+                "sha1": "807a28342f5b0355493cd651e6e40aade10ed4dd",
+                "sha256": "f43119362235d768799a4a18350947798b11f6ea6238933655bef04b3aa3dd8b"
+            },
+            "dob": {
+                "date": "1992-03-15T15:11:28.929Z",
+                "age": 33
+            },
+            "registered": {
+                "date": "2016-04-20T13:14:01.271Z",
+                "age": 9
+            },
+            "phone": "904-166-205",
+            "cell": "698-599-230",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/70.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/70.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/70.jpg"
+            },
+            "nat": "ES"
+        },
+        {
+            "id": 4,
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Christian",
+                "last": "Vega"
+            },
+            "location": {
+                "street": {
+                    "number": 8466,
+                    "name": "Calle de La Almudena"
+                },
+                "city": "Cartagena",
+                "state": "País Vasco",
+                "country": "Spain",
+                "postcode": 68295,
+                "coordinates": {
+                    "latitude": "-65.4214",
+                    "longitude": "3.4882"
+                },
+                "timezone": {
+                    "offset": "+3:00",
+                    "description": "Baghdad, Riyadh, Moscow, St. Petersburg"
+                }
+            },
+            "email": "christian.vega@example.com",
+            "login": {
+                "uuid": "a1340c65-2e1a-4b7c-84ff-58f3dbb07299",
+                "username": "brownostrich321",
+                "password": "mail",
+                "salt": "VsKb2SKv",
+                "md5": "18e54c4137ea36da5cedc011b8c5f315",
+                "sha1": "7e2a614c0e78bccbca1bbfad89b3b3b87736907c",
+                "sha256": "5933289052297caf999c0f624e9c259382c2e75e241f2b5e53ec90649c7b6eb8"
+            },
+            "dob": {
+                "date": "1986-01-14T05:41:55.129Z",
+                "age": 39
+            },
+            "registered": {
+                "date": "2019-12-17T01:30:21.260Z",
+                "age": 5
+            },
+            "phone": "901-934-630",
+            "cell": "600-310-347",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/44.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/44.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/44.jpg"
+            },
+            "nat": "ES"
+        },
+        {
+            "id": 5,
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Margarita",
+                "last": "Carrasco"
+            },
+            "location": {
+                "street": {
+                    "number": 5351,
+                    "name": "Calle de Tetuán"
+                },
+                "city": "Málaga",
+                "state": "Comunidad de Madrid",
+                "country": "Spain",
+                "postcode": 33667,
+                "coordinates": {
+                    "latitude": "-50.2561",
+                    "longitude": "-178.6376"
+                },
+                "timezone": {
+                    "offset": "-3:30",
+                    "description": "Newfoundland"
+                }
+            },
+            "email": "margarita.carrasco@example.com",
+            "login": {
+                "uuid": "9fd9fe35-0af6-4b31-8da5-03f8d72eac49",
+                "username": "brownmouse561",
+                "password": "911911",
+                "salt": "0uVeok79",
+                "md5": "55872b9827e9211630d81f3ba81f76c1",
+                "sha1": "046b30f46721866be841de4fb3a1592fce71f658",
+                "sha256": "f8a597f42eba04d10ad025a6272b2e5d214f6298563d3e968f031a80b17fc2fa"
+            },
+            "dob": {
+                "date": "1988-11-16T03:20:27.572Z",
+                "age": 36
+            },
+            "registered": {
+                "date": "2013-11-20T12:22:43.609Z",
+                "age": 11
+            },
+            "phone": "974-894-092",
+            "cell": "656-508-323",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/58.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/58.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/58.jpg"
+            },
+            "nat": "ES"
+        },
+        {
+            "id": 6,
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Julián",
+                "last": "Herrera"
+            },
+            "location": {
+                "street": {
+                    "number": 2461,
+                    "name": "Calle de Ferraz"
+                },
+                "city": "Orihuela",
+                "state": "Ceuta",
+                "country": "Spain",
+                "postcode": 68993,
+                "coordinates": {
+                    "latitude": "-84.7636",
+                    "longitude": "128.0232"
+                },
+                "timezone": {
+                    "offset": "+5:45",
+                    "description": "Kathmandu"
+                }
+            },
+            "email": "julian.herrera@example.com",
+            "login": {
+                "uuid": "b9594a3b-e702-4f66-a600-161047b38c01",
+                "username": "greengoose782",
+                "password": "epsilon",
+                "salt": "ShT6Wan5",
+                "md5": "3c8d9be7be59e88371bf0d7443ab73cc",
+                "sha1": "86b382693099e2f6037b3251d92b4cb66a50b727",
+                "sha256": "bf7e28b8162ed2f660119e291f4fd5bc2b0368a4128f8accfeade4c76bafbeec"
+            },
+            "dob": {
+                "date": "1956-02-04T01:12:24.055Z",
+                "age": 69
+            },
+            "registered": {
+                "date": "2010-10-15T20:09:50.749Z",
+                "age": 14
+            },
+            "phone": "956-863-610",
+            "cell": "675-244-506",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/90.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/90.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/90.jpg"
+            },
+            "nat": "ES"
+        },
+        {
+            "id": 7,
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Benito",
+                "last": "Herrera"
+            },
+            "location": {
+                "street": {
+                    "number": 8692,
+                    "name": "Calle de Alberto Aguilera"
+                },
+                "city": "Granada",
+                "state": "Región de Murcia",
+                "country": "Spain",
+                "postcode": 61769,
+                "coordinates": {
+                    "latitude": "61.4409",
+                    "longitude": "71.4422"
+                },
+                "timezone": {
+                    "offset": "+5:45",
+                    "description": "Kathmandu"
+                }
+            },
+            "email": "benito.herrera@example.com",
+            "login": {
+                "uuid": "95db92d4-8987-44f5-8132-ff03a8c99c7d",
+                "username": "redtiger340",
+                "password": "talon",
+                "salt": "PcAPv24L",
+                "md5": "b2d4d3c7f0fca5621c6ac5159f1ab339",
+                "sha1": "b4d54ace5d97e409f5bf3d03e1b0382fe0537342",
+                "sha256": "f371e6041ffe935ba6955b00060226e6173f5bfabee003231431bb3d0cb2ebd7"
+            },
+            "dob": {
+                "date": "1984-08-23T23:18:16.376Z",
+                "age": 40
+            },
+            "registered": {
+                "date": "2006-08-25T23:29:42.858Z",
+                "age": 18
+            },
+            "phone": "963-264-034",
+            "cell": "603-999-154",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/67.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/67.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/67.jpg"
+            },
+            "nat": "ES"
+        },
+        {
+            "id": 8,
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Felipe",
+                "last": "Santos"
+            },
+            "location": {
+                "street": {
+                    "number": 8535,
+                    "name": "Calle de Tetuán"
+                },
+                "city": "Vitoria",
+                "state": "Cantabria",
+                "country": "Spain",
+                "postcode": 86196,
+                "coordinates": {
+                    "latitude": "81.9500",
+                    "longitude": "-8.3379"
+                },
+                "timezone": {
+                    "offset": "+9:00",
+                    "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+                }
+            },
+            "email": "felipe.santos@example.com",
+            "login": {
+                "uuid": "0f48980c-5467-41e5-bef0-c34a6b3796ab",
+                "username": "organicleopard768",
+                "password": "outback",
+                "salt": "fEKxNp59",
+                "md5": "50a0b40cd9bcde80bc284fa39fe7d662",
+                "sha1": "7a5368a3f2cefee7a7f541338fccfc767504cc96",
+                "sha256": "bdbb3c441d790a7446e03cb9219136c1feda12e73a4a525f070e2f207c16dd65"
+            },
+            "dob": {
+                "date": "1955-11-10T09:21:31.119Z",
+                "age": 69
+            },
+            "registered": {
+                "date": "2004-01-10T10:22:10.364Z",
+                "age": 21
+            },
+            "phone": "917-443-345",
+            "cell": "645-311-914",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/93.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/93.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/93.jpg"
+            },
+            "nat": "ES"
+        },
+        {
+            "id": 9,
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Jesus",
+                "last": "González"
+            },
+            "location": {
+                "street": {
+                    "number": 9087,
+                    "name": "Calle de Tetuán"
+                },
+                "city": "Santander",
+                "state": "Cantabria",
+                "country": "Spain",
+                "postcode": 61705,
+                "coordinates": {
+                    "latitude": "-69.1680",
+                    "longitude": "84.9315"
+                },
+                "timezone": {
+                    "offset": "+9:00",
+                    "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+                }
+            },
+            "email": "jesus.gonzalez@example.com",
+            "login": {
+                "uuid": "ec03e555-c36e-48ad-b592-0b946780a907",
+                "username": "crazyostrich889",
+                "password": "zeng",
+                "salt": "BCcmucMK",
+                "md5": "8dd12e7c4d5f7f8f62eec26fb87f11b7",
+                "sha1": "9e85ccba52f0ee1d50073cf3ba54001b54bc9d39",
+                "sha256": "9cb9e5a23ee9348b49c1ad66e83f6b94aa92639e78ab088f1527399474363c1e"
+            },
+            "dob": {
+                "date": "1960-09-20T22:32:51.789Z",
+                "age": 64
+            },
+            "registered": {
+                "date": "2017-05-15T22:49:32.946Z",
+                "age": 8
+            },
+            "phone": "971-126-502",
+            "cell": "630-116-500",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/21.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/21.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/21.jpg"
+            },
+            "nat": "ES"
+        },
+        {
+            "id": 10,
+            "gender": "female",
+            "name": {
+                "title": "Ms",
+                "first": "Elisa",
+                "last": "Blanco"
+            },
+            "location": {
+                "street": {
+                    "number": 2642,
+                    "name": "Calle de Ángel García"
+                },
+                "city": "Alicante",
+                "state": "Comunidad Valenciana",
+                "country": "Spain",
+                "postcode": 18939,
+                "coordinates": {
+                    "latitude": "55.2893",
+                    "longitude": "-102.6060"
+                },
+                "timezone": {
+                    "offset": "-8:00",
+                    "description": "Pacific Time (US & Canada)"
+                }
+            },
+            "email": "elisa.blanco@example.com",
+            "login": {
+                "uuid": "09784326-cd35-4f9a-86a5-de9eae4b3aa5",
+                "username": "yellowwolf923",
+                "password": "mercedes",
+                "salt": "4s1jukE9",
+                "md5": "be87f58e1fea14393d3b2365a3586bfe",
+                "sha1": "d9cf5d207de50a6d6e0b6d13a6ca452ec0d71b7a",
+                "sha256": "56c60c421b25ff9024552292bdfa620c997d57f96d931a91712e36008ffc7399"
+            },
+            "dob": {
+                "date": "1983-03-22T07:15:29.165Z",
+                "age": 42
+            },
+            "registered": {
+                "date": "2020-06-18T16:18:16.501Z",
+                "age": 4
+            },
+            "phone": "948-667-148",
+            "cell": "690-258-427",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/1.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/1.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/1.jpg"
+            },
+            "nat": "ES"
+        }
+    ],
+    "info": {
+        "seed": "a",
+        "results": 10,
+        "page": 1,
+        "version": "1.4"
+    }
 }
