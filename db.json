@@ -135,5 +135,71 @@
                 "large": "https://randomuser.me/api/portraits/women/58.jpg"
             }
         }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Zapatillas de running",
+            "listPrice": 59.99,
+            "minPromotionQuantity": 3,
+            "maxPromotionQuantity": 10,
+            "minPromotionPrice": 49.99
+        },
+        {
+            "id": 2,
+            "name": "Camiseta deportiva",
+            "listPrice": 19.99,
+            "minPromotionQuantity": 5,
+            "maxPromotionQuantity": 15,
+            "minPromotionPrice": 14.99
+        },
+        {
+            "id": 3,
+            "name": "Pantalones de entrenamiento",
+            "listPrice": 39.99,
+            "minPromotionQuantity": 2,
+            "maxPromotionQuantity": 8,
+            "minPromotionPrice": 34.99
+        },
+        {
+            "id": 4,
+            "name": "Sudadera con capucha",
+            "listPrice": 49.99,
+            "minPromotionQuantity": 1,
+            "maxPromotionQuantity": 5,
+            "minPromotionPrice": 39.99
+        },
+        {
+            "id": 5,
+            "name": "Botella de agua reutilizable",
+            "listPrice": 9.99,
+            "minPromotionQuantity": 10,
+            "maxPromotionQuantity": 20,
+            "minPromotionPrice": 7.99
+        },
+        {
+            "id": 6,
+            "name": "Gorra deportiva",
+            "listPrice": 14.99,
+            "minPromotionQuantity": 4,
+            "maxPromotionQuantity": 12,
+            "minPromotionPrice": 11.99
+        },
+        {
+            "id": 7,
+            "name": "Mochila de entrenamiento",
+            "listPrice": 29.99,
+            "minPromotionQuantity": 2,
+            "maxPromotionQuantity": 6,
+            "minPromotionPrice": 24.99
+        },
+        {
+            "id": 8,
+            "name": "Guantes de entrenamiento",
+            "listPrice": 12.99,
+            "minPromotionQuantity": 3,
+            "maxPromotionQuantity": 10,
+            "minPromotionPrice": 9.99
+        }
     ]
 }
